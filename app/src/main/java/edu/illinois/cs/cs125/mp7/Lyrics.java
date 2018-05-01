@@ -72,7 +72,7 @@ public class Lyrics extends AppCompatActivity {
                             } catch (Exception e) {
                                 Log.w(TAG, e.toString());
                                 Context context = getApplicationContext();
-                                CharSequence text = "Hello toast!";
+                                CharSequence text = "Song not found!";
                                 int duration = Toast.LENGTH_SHORT;
                                 Toast toast = Toast.makeText(context, text, duration);
                                 toast.show();
